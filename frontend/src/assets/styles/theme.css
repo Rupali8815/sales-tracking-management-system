@@ -1,0 +1,26 @@
+/* Status colours. Each pair passes contrast on its own tint. */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  white-space: nowrap;
+  background: #eceeea;
+  color: #3b4540;
+}
+.badge-new { background: #dfeefb; color: #17497a; }
+.badge-contacted { background: #fdf0d2; color: #7a4d06; }
+.badge-qualified { background: #dcf1e2; color: #1d5a37; }
+.badge-lost { background: #f9e0dd; color: #8a2a21; }
+.badge-negotiation { background: #e7e4f7; color: #46358c; }
+.badge-proposal { background: #fdf0d2; color: #7a4d06; }
+.badge-closed_won { background: #dcf1e2; color: #1d5a37; }
+.badge-closed_lost { background: #f9e0dd; color: #8a2a21; }
+.badge-pending { background: #fdf0d2; color: #7a4d06; }
+.badge-partial { background: #dfeefb; color: #17497a; }
+.badge-paid { background: #dcf1e2; color: #1d5a37; }
+.badge-create { background: #dcf1e2; color: #1d5a37; }
+.badge-update { background: #dfeefb; color: #17497a; }
+.badge-delete { background: #f9e0dd; color: #8a2a21; }
+.badge-login, .badge-logout { background: #eceeea; color: #3b4540; }

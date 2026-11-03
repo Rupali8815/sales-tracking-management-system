@@ -1,0 +1,25 @@
+/*
+  Design tokens.
+  Ink teal + marigold on a cool paper background. Numbers use tabular figures
+  so rupee columns line up like a ledger.
+*/
+:root {
+  --ink: #0e3b3a;            /* sidebar, brand */
+  --ink-soft: #174a48;       /* hover on ink */
+  --ink-text: #b9cfcb;       /* text on ink */
+  --color-primary: #0f6b63;  /* actions */
+  --color-primary-dark: #0b564f;
+  --marigold: #e9a21b;       /* where-you-are marker, focus, key figure */
+  --color-danger: #b3372d;
+  --color-success: #2c7a4b;
+  --color-warning: #b9770e;
+  --color-text: #19231f;
+  --color-text-muted: #5e6b66;
+  --color-border: #e1e5df;
+  --color-bg: #f4f6f2;
+  --color-surface: #ffffff;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --sidebar-width: 244px;
+  --font: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
